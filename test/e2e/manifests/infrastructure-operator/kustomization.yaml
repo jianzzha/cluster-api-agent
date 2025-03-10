@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - https://raw.githubusercontent.com/openshift/assisted-service/9964f0870d5df042a782bb9c6394835d05ad807a/hack/crds/hive.openshift.io_clusterdeployments.yaml
   - https://raw.githubusercontent.com/openshift/assisted-service/9964f0870d5df042a782bb9c6394835d05ad807a/hack/crds/hive.openshift.io_clusterimagesets.yaml
-  - https://github.com/openshift/assisted-service/config/default?ref=v2.33.0
+  - https://github.com/openshift/assisted-service/config/default?ref=v2.38.1
 
 # 07/24/24 build
 images:
